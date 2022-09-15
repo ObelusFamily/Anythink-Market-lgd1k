@@ -17,4 +17,5 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ** Run Docker-v to check version**
 ** Run Docker-compose -v**
 ** run docker-compose up from project directory**
+and run
 
