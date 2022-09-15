@@ -25,6 +25,12 @@ const YourFeedTab = (props) => {
   }
   return null;
 };
+//show product filter for title
+const TitleFilter = (props) => {
+  const clickHandler = (ev) => {
+    ev.preventDefault();
+    props.onTitleClick("title", agent.Items.title, agent.Items.title());
+  };
 
 const GlobalFeedTab = (props) => {
   const clickHandler = (ev) => {
